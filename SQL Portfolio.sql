@@ -8,7 +8,7 @@ Order by 3,4
 
 Select Location, date, total_cases, new_cases, total_deaths, population
 From PortfolioProject..CovidDeaths
-Order by 1,2 --order by location and date
+Order by 1,2
 
 
 Select Location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 as Total_Deaths_Vs_Total_Cases
